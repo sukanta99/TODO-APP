@@ -1,0 +1,43 @@
+.site-card-border-less-wrapper {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 230, 230);
+    width: 500px;
+  }
+  .card-style {
+    background-color: #f9f9f9;
+    border: 1px solid;
+    /* box-shadow: 0.5px 0.5px; */
+  }
+
+   ::marker{
+     display: 'none !important'
+  }
+
+  .ant-input {
+      height: 36px;
+      border: none;
+      width: 450px;
+      display: inline-flex;
+      padding-left: 12px;
+
+  }
+    .parent-div-style {
+        display: "flex";
+        justify-content: "center";
+        width: 900px;
+        height: 500px;
+        align-items: 'center';
+    }
+    .complete-remove-icon-style {
+        display: "flex";
+        width: "100%";
+        justify-content: 'space-between';
+    }
+    .footer-row-style {
+        display: "inline-flex";
+        width: '100%';
+        margin-top: "28px";
+    }
